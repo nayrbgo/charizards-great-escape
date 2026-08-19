@@ -1,24 +1,11 @@
 {
-    "name": "Charizard's Great Escape",
-    "description": "",
+    "name": "charizard-backyard-escape",
+    "description": "A MakeCode Arcade game: Charizard escapes Harry Potter's backyard and races to Mario's favorite pizza parlor.",
     "dependencies": {
         "device": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md",
-        "assets.json"
+        "main.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "targetVersions": {
-        "target": "4.0.14",
-        "targetId": "arcade"
-    },
-    "supportedTargets": [
-        "arcade"
-    ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
